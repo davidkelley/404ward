@@ -1,0 +1,57 @@
+body {
+	margin:20px;
+}
+
+html header {
+	margin-bottom:20px;
+}
+
+header,
+div[role="content"] {
+	display:block;
+	min-width:680px;
+	max-width:2400px;
+	margin:auto;
+}
+
+
+header .logo {
+	float:left;
+	margin-left:40px;
+}
+
+header .copy {
+	float:right;
+	margin-top:4px;
+	margin-right:40px;
+}
+
+div[role="content"] a {
+	width:33.333%;
+	display:block;
+	float:left;
+	height:100%;
+	overflow:hidden;
+	font-size:0;
+}
+
+div[role="content"] img {
+	width:100%;
+	height:auto;
+	max-height:505px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+.clearfix {
+    *zoom: 1;
+}
